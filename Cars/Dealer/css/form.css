@@ -1,0 +1,106 @@
+/*!
+ * Auther      : Jyothirmayudu.CH
+ * Created on  : 26 Jan 2013
+ * Mail        : ch.jmayudu@gmail.com
+ * Discription : CSS for Upload Car
+ */
+
+.basic  {
+	width: 100%;	
+	border:none;
+	margin:0 auto;
+}
+.basic div {
+	background-color: #eee;
+}
+
+
+.basic div.hed {
+	cursor:pointer;
+	display:block;
+	padding:8px 5px;
+	margin-top: 0;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: black;
+	
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #999;	
+	background:#ffb113 url(../images/AccordionTab0.gif)  ;
+	text-shadow:#fff 1px 1px 0;
+	
+}
+.basic div.hed a{
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+	color: black;	
+	}
+	.hed div.open
+	{
+		background:url(../images/gn-sprite.png) no-repeat scroll -200px -71px transparent;
+		width:12px;
+		height:12px;
+		overflow:hidden;
+		float:right;		
+		margin:3px 4px 0 0;
+	}
+	.hed div.close
+	{
+		background:url(../images/gn-sprite.png) no-repeat scroll -99px -47px transparent;
+		width:12px;
+		height:12px;
+		overflow:hidden;
+		float:right;		
+		margin:2px 5px 0 0;
+	}
+	
+.basic div.hed:hover {
+	color: #fff;
+	background-image: url("../images/AccordionTab2.jpg");
+	text-shadow:#222 1px 1px 1px;
+}
+.basic div.hed:hover a{
+	color: #fff;
+	text-shadow:#222 1px 1px 1px;
+	}
+.basic div.hed.selected {	
+	color: #fff;
+	background-image: url("../images/AccordionTab2.jpg");
+}
+.basic ul{
+	padding:0;
+	margin:5px;
+	line-height:22px;
+}
+.li-hover{
+	color:#ffb619;
+	font-weight:bold
+}
+.basic li input[type='checkbox']{
+	margin-right:6px;
+}
+.basic ul li a{
+	text-decoration:underline;
+	font-size: 12px;
+	margin: 0px;
+	padding: 10px;
+	color:#333;	
+	line-height:20px;
+}
+.basic ul li a:hover{
+	text-decoration:underline;
+	color:#ffb619;
+	font-weight:bold
+}
+
+
+
+
+@media print {
+	.basic div, #navigation ul, #list2 dd, #list3 div{
+		display: block!important;
+		height: auto!important
+	}
+}

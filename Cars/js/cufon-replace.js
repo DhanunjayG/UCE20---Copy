@@ -1,0 +1,1 @@
+Cufon.replace('h2', { fontFamily: 'Swis721 Md BT' });

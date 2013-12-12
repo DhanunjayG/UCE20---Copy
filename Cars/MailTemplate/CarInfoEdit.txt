@@ -1,0 +1,16 @@
+Dear Support,
+
+
+###Cusname### has requested to change his car details
+
+Old year: ###OldYear###
+New Year: ###NewYear###	
+Old make: ###OldMake###
+New make: ###NewMake###	
+Old model: ###OldModel###
+New model: ###NewModel###	
+
+
+
+Regards,
+Sales Team
